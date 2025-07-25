@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Bahan Kosmetik</title>
+    <style>
+        /* CSS untuk meniru tampilan dari gambar */
+        body {
+            font-family: Poppins, sans-serif; /* Font standar yang bersih */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 40px 20px;
+            background-color: #f0f0f0; /* Latar belakang abu-abu muda */
+        }
+        .table-container {
+            width: 90%;
+            max-width: 800px; /* Lebar maksimum tabel */
+            border: 1px solid black; /* Border luar */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse; /* Menggabungkan border sel */
+        }
+        th, td {
+            border: 1px solid black; /* Border untuk setiap sel */
+            padding: 10px 12px; /* Padding di dalam sel */
+            text-align: left; /* Teks rata kiri */
+            vertical-align: middle; /* Teks di tengah secara vertikal */
+        }
+        thead th {
+            background-color: #fff600; /* Warna kuning untuk header */
+            font-weight: bold;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #ffffff; /* Baris genap tetap putih */
+        }
+        tbody tr:nth-child(odd) {
+            background-color: #ffffff; /* Baris ganjil juga putih, sesuai gambar */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="table-container">
+        <table>
+            <!-- Header Tabel -->
+            <thead>
+                <tr>
+                    <th>Nama Bahan</th>
+                    <th>Fungsi Utama</th>
+                    <th>Bentuk Umum</th>
+                </tr>
+            </thead>
+            <!-- Isi Tabel -->
+            <tbody>
+                <tr>
+                    <td>1,3-Butylene Glycol</td>
+                    <td>Humektan & Solvent</td>
+                    <td>Cair</td>
+                </tr>
+                <tr>
+                    <td>Vegetable Glycerin (VG)</td>
+                    <td>Humektan</td>
+                    <td>Cair kental</td>
+                </tr>
+                <tr>
+                    <td>D-Panthenol / Provitamin B5</td>
+                    <td>Humektan & Penenang</td>
+                    <td>Cair kental / Larutan</td>
+                </tr>
+                <tr>
+                    <td>Cetyl Alkohol</td>
+                    <td>Emolien & Emulsifier</td>
+                    <td>Padat (lilin)</td>
+                </tr>
+                <tr>
+                    <td>Beeswax (Lilin Lebah)</td>
+                    <td>Emolien & Occlusive</td>
+                    <td>Padat (lilin)</td>
+                </tr>
+                <tr>
+                    <td>Argan Oil</td>
+                    <td>Emolien & Antioxidant</td>
+                    <td>Minyak</td>
+                </tr>
+                 <tr>
+                    <td>Calendula Oil</td>
+                    <td>Emolien & Anti-inflamasi</td>
+                    <td>Minyak</td>
+                </tr>
+                <tr>
+                    <td>Camellia Seed Oil</td>
+                    <td>Emolien & Antioxidant</td>
+                    <td>Minyak ringan</td>
+                </tr>
+                <tr>
+                    <td>Allantoin</td>
+                    <td>Skin Soothing Agent</td>
+                    <td>Bubuk / Kristal</td>
+                </tr>
+                <tr>
+                    <td>Alpha Arbutin</td>
+                    <td>Brightening Agent</td>
+                    <td>Bubuk larut air</td>
+                </tr>
+                <tr>
+                    <td>Glycolic Acid</td>
+                    <td>Exfoliant (AHA)</td>
+                    <td>Cair / Bubuk</td>
+                </tr>
+                 <tr>
+                    <td>Red Bentonite Clay</td>
+                    <td>Detoksifikasi & Oil Control</td>
+                    <td>Bubuk</td>
+                </tr>
+                <tr>
+                    <td>Coswhite Clay</td>
+                    <td>Detoksifikasi & Mineralisasi</td>
+                    <td>Bubuk</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
